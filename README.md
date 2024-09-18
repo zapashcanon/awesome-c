@@ -340,6 +340,7 @@ work.
    single and multithread programs, user assertions, overflow, and pointer/memory safety. [``Apache-2.0``][Apache-2.0]
 * [GDB][87] - GNU Project debugger. [``GPL-3.0-or-later``][GPL-3.0-or-later]
 * [lldb][468] - LLVM debugger. [``NCSA``][NCSA]
+* [Owi][707] - A symbolic execution tool ([paper][708]) [``AGPL-3.0-or-later``][AGPL-3.0-or-later]
 * [rr][95] - Debugger that records non-deterministic executions to allow for
   deterministic debugging. [``BSD-2-Clause``][BSD-2-Clause]
 * [Valgrind][85] - Range of dynamic analysis tools, including a leak
@@ -977,6 +978,7 @@ device types (such as logic analyzers, oscilloscopes, multimeters, and more). [`
 * [minctest][394] - Unit testing microlibrary. [``BSD-3-Clause``][BSD-3-Clause]
 * [munit][392] - Small unit testing framework. [``MIT``][MIT]
 * [Nala][560] - A test framework for C projects. [``MIT``][MIT]
+* [Owi][707] - A bug-finding tool built on symbolic execution ([paper][708]) [``AGPL-3.0-or-later``][AGPL-3.0-or-later]
 * [Rexo][563] - Framework for C89/C++ featuring automatic registration of tests and a polished API. [``Unlicense``][Unlicense]
 * [Tau][609] -  A Micro Unit testing framework for C/C++ (~1k lines of code). Includes a rich set of assertion macros, supports automatic test 
 registration and can output to multiple formats, like the TAP format or JUnit XML. Supported on Linux, macOS, FreeBSD, and Windows. [``MIT``][MIT]
@@ -1847,4 +1849,5 @@ support for C.
 [704]: https://github.com/taosdata/TDengine
 [705]: https://nappgui.com/
 [706]: https://github.com/armink/EasyLogger
-
+[707]: https://github.com/OCamlPro/owi
+[708]: https://hal.science/hal-04627413
